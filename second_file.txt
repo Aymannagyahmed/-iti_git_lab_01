@@ -13,3 +13,7 @@ git add -A
 git commit -m "peter added his changes"
 git push origin master
 
+Ayman steps
+git pull origin master
+
+

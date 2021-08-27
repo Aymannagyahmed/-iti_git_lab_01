@@ -1,0 +1,33 @@
+Ayamn Nagy Ahmed Ali  
+
+1- install git in local:
+Download Git-2.33.0.2-64-bit.exe for windows X64 form https://git-scm.com/downloads
+
+2- setup git configrations:
+git config --global user.name "AyamnNagyAhmed"
+git config --global user.email "AyamnNagy.Ahmed@gmail.com"
+
+3- generate ssh key:
+ssh-keygen -t rsa -b 4096 -C "Aymannagy.ahmed@gmail.com"
+
+4- copy ssh key from ( .ssh/id_rsa.pub ) to github (github.com -> settings -> keys -> SSH keys)
+
+5- Create local repo and connect to remote repo
+mkdir iti_lab_01
+cd iti_lab_01 
+git init
+
+// Create readme file
+touch README.md
+// pushing README.md file
+git add README.md
+git commit -m "created README.md"
+
+// -M  move/rename a branch, even if target exists
+git branch -M master
+git remote add origin git@github.com:Aymannagyahmed/-iti_git_lab_01.git
+git push -u origin master
+
+6-
+
+
