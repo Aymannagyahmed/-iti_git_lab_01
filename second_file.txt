@@ -1,0 +1,15 @@
+peter magdy gaballa
+
+//after ayman invited me to his repo
+// i accepted the invitation and cloned the project
+
+git clone git@github.com:Aymannagyahmed/-iti_git_lab_01.git
+
+// then added file second_file.txt and added changes
+// then made push
+
+touch second_file.txt
+git add -A
+git commit -m "peter added his changes"
+git push origin master
+
