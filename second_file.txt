@@ -17,3 +17,36 @@ Ayman steps
 git pull origin master
 
 
+// peter magdy
+
+git pull origin master
+
+
+// peter log
+
+$ git log
+commit 1abb82760a728b9658193f006572073414319958 (HEAD -> master, origin/master, origin/HEAD)
+Author: AymanNagyAhmed <AymanNagy.Ahmed@gmail.com>
+Date:   Fri Aug 27 23:43:48 2021 +0200
+
+    ayman add first file.txt and change in second file
+
+commit 37ca0b9d3e63785ae5ca4faf02b2395d54a2cc2a
+Author: PeterMagdy <petermagdy594@gmail.com>
+Date:   Fri Aug 27 23:36:56 2021 +0200
+
+    peter added his changes
+
+commit 48b6420481e645306831ebe9cde35284c09f3e43
+Author: AymanNagyAhmed <AymanNagy.Ahmed@gmail.com>
+Date:   Fri Aug 27 22:03:17 2021 +0200
+
+    created README.md
+
+
+
+//added changes and push
+git add -A
+git commit -m "peter added his steps"
+git push origin master
+
